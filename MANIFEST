@@ -8,6 +8,7 @@ MANIFEST			This list of files
 META.json
 README.pod
 share/.foorc
+share/custom.yml
 share/dir1/.akirc
 share/dir2/.yuirc
 t/00_compile.t
@@ -15,6 +16,7 @@ t/01_basic.t
 t/02_list.t
 t/03_no_export.t
 t/04_lazy_read.t
+t/05_custom_config_loader.t
 xt/01_perlcritic.t
 xt/02_pod-coverage.t
 xt/03_pod.t

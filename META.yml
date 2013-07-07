@@ -18,7 +18,7 @@ name: Config-CmdRC
 provides:
   Config::CmdRC:
     file: lib/Config/CmdRC.pm
-    version: 0.02
+    version: 0.03
 requires:
   Config::Simple: 0
   File::Spec: 0
@@ -28,4 +28,7 @@ resources:
   bugtracker: http://github.com/bayashi/Config-CmdRC/issues
   license: http://dev.perl.org/licenses/
   repository: http://github.com/bayashi/Config-CmdRC
-version: 0.02
+version: 0.03
+x_test_requires:
+  Config::Any: 0
+  Test::More: 0.88
